@@ -2,13 +2,13 @@ import Footer from "components/footer/footer"
 import Navbar from "components/nav/navbar"
 import Layout from "hocs/layouts/layout"
 
-function Home(){
+function Nosotros(){
     return(
         <Layout>
         <Navbar/>
-            Home
+            Nosotros
         <Footer/>    
         </Layout>
     )
 }
-export default Home
+export default Nosotros
